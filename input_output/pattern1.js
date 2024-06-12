@@ -1,8 +1,8 @@
 function Main(input) {
-	const result = input.split("\n");
+	const lines = input.split("\n");
 
 
 
-	console.log(result);
+	console.log(lines);
 }
 Main(require("fs").readFileSync("/dev/stdin", "utf8"));
